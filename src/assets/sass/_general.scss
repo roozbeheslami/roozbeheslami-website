@@ -1,0 +1,60 @@
+/*////////////////////// GENERAL //////////////////////*/
+
+* {
+    outline: none!important;
+    padding: 0px; 
+}
+
+html {
+    direction: ltr;
+    height: 100%;
+}
+
+body {
+    direction: ltr;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: $f-rb;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+    &:hover,
+    &:focus,
+    &:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+.showme {
+    opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0
+}
