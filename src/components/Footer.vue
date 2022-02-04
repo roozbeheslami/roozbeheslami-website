@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-sm-7">
                     <p>
-                        ©2007-2021 {{ name }} 
+                        ©2007-2022 {{ name }} 
                     </p>
                 </div>
                 <div class="col-12 col-sm-5 social">

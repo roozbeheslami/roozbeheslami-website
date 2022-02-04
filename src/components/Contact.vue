@@ -29,15 +29,16 @@
                     <div class="col-lg-3 col-xl-3 side">
                         <div class="qrcode hvr-wobble-vertical">
                             <img src="../assets/img/qr-code.png" alt="QR Code">
-                            <h6>Scan the QR-Code to have my contact details on your phone.</h6>
+                            <h6>Get my contact details on your phone by scanning the QR-code.</h6>
                         </div>
                     </div>
                     <div class="col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-1 col-xl-9 col-xl-offset-1 content">
                         <div class="row text">
                             <div class="col-md-12 inner">
                                 <p>
-                                    You can send me an email at 
-                                    <a href="mailto:eslami.roozbeh@gmail.com" target="_blank">eslami.roozbeh [at] gmail [dot] com</a> or send me a message using this form below and I will respond you ASAP.
+                                    I can be reached at
+                                    <a href="mailto:eslami.roozbeh@gmail.com" target="_blank">eslami.roozbeh [at] gmail [dot] com</a>
+                                    or you can send me a message using the form below and I will get back to you as soon as possible. 
                                 </p>
                             </div>
                         </div>
