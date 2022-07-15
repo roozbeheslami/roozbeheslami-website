@@ -34,7 +34,7 @@
 												<i v-if="work.tools.react" class="fab fa-react"></i>
 												<img v-if="work.tools.jquery" src="../assets/img/skills/jquery.png" alt="jQuery">
 											</p>
-											<p v-if="key == 0 || key == 11"><a>{{ work.website }}</a></p>
+											<p v-if="key == 11"><a>{{ work.website }}</a></p>
 											<p v-else><a :href="'http://' + work.website" target="_blank">{{ work.website }}</a></p>
 										</div>
 									</figcaption>			
@@ -87,7 +87,7 @@
 						titleSort: true,
 						titleBold: "Arzjoo",
 						title: "Exchange",
-						description: "Arzjoo is a online platform for buying or selling digital currency.",
+						description: "Arzjoo (Sarmayex) is a online platform for buying or selling digital currency.",
 						website: "www.arzjoo.com" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: false, react: false, jquery: true }
