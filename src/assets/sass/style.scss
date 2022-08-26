@@ -660,20 +660,19 @@ $xl: 1199px;
                 display: block;
                 text-decoration: none;
                 color: $cb;
-                padding: 7px 0px;
+                padding: 10px 0px;
                 letter-spacing: 3px;
                 transition: 0.2s;
                 border-radius: 5px;
                 font-size: 14px;
     
-                @include res(md) {
+                @include res($md) {
                     border-radius: 0px;
                     color: $cw;
                 }
 
                 &:hover {
-                    color: $cg;
-                    background-color: $c1;
+                    background-color: #eee;
                 }
             }
         }
@@ -682,8 +681,9 @@ $xl: 1199px;
 
 .nav-fix {
     width: 100%;
-    background-color: rgba(255,255,255,0.95);
-    border-bottom: 1px solid #d6d6d6;
+    background: hsla(0,0%,100%,.9) !important;
+    backdrop-filter: saturate(500%) blur(3px);
+    border-bottom: 1px solid #eee;
     font-family: $f-rw;
     font-weight: 500;
     position: fixed;
@@ -709,7 +709,7 @@ $xl: 1199px;
                 width: 52%;
             }
 
-            @include res(lg) {
+            @include res($lg) {
                 width: 40%;
             }
 
@@ -742,7 +742,7 @@ $xl: 1199px;
                 width: 48%;
             }
 
-            @include res(lg) {
+            @include res($lg) {
                 width: 60%;
             }
 
@@ -750,8 +750,7 @@ $xl: 1199px;
                 li {
                     a { 
                         &.router-link-exact-active {
-                            color: $cg;
-                            background-color: #eee;
+                            background-color: $c1;
                             cursor: default;
                         }
                     }
@@ -760,7 +759,7 @@ $xl: 1199px;
         }
     }
 
-    @include res(md) {
+    @include res($md) {
         display: none;
     }
 }

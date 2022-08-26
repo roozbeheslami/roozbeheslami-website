@@ -16,9 +16,9 @@
 						<p>
 							Hello, I'm {{ fullName }}, a web designer and front-end engineer born in 1988, based in Tehran, Iran.
 							<br>
-							I began programming in Highschool and worked as a freelance web designer during my studies at university so that I could understand the importance of a well-designed and functional website. My master's degree is in computer software engineering from Islamic Azad University and currently I work as a full-time front-end engineer at Asa Co.
+							I began programming in Highschool and worked as a freelance web designer during my studies at university. I have more than 10 years of experience working in web development therefore I could understand the importance of a well-designed and functional website. My master's degree is in computer software engineering from Islamic Azad University and currently I work as a full-time front-end engineer at Asa Co.
 							<br>
-							Nowadays, I'm mostly focusing on front-end development, but from time to time I like to design my own projects and explore new design trends.
+							Nowadays, I'm mostly focusing on front-end development and web3, but from time to time I like to design my own projects and explore new design trends.
 						</p>
 						<div class="touch">
 							<p>Have a project you'd like to discuss? Let's work together!</p>

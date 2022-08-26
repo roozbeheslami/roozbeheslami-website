@@ -73,12 +73,22 @@
 				},
 				works: [
 					{
+						image: require('../assets/img/works/mobexi.jpg'),
+						titleSort: true,
+						titleBold: "Mobexi",
+						title: "Exchange",
+						description: "Mobexi is a financial online platform for cryptocurrency exchange.",
+						website: "mobexi.ir" ,
+						category: "front",
+						tools: { html: true, css: false, sass: true, bootstrap: false, js: false, vue: true, react: false, jquery: false }
+					},
+					{
 						image: require('../assets/img/works/ghoghnos.jpg'),
 						titleSort: true,
 						titleBold: "Ghoghnos",
 						title: "Agency",
 						description: "Ghoghnos Travel Company is active in the field of tourism since 1979.",
-						website: "www.ghoghnos.ir" ,
+						website: "ghoghnos.ir" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: true, react: false, jquery: true }
 					},
@@ -88,9 +98,9 @@
 						titleBold: "Arzjoo",
 						title: "Exchange",
 						description: "Arzjoo (Sarmayex) is a online platform for buying or selling digital currency.",
-						website: "www.arzjoo.com" ,
+						website: "arzjoo.com" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: true, react: false, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/decathlon.jpg'),
@@ -98,7 +108,7 @@
 						titleBold: "Decathlon",
 						title: "Group",
 						description: "Decathlon S.A. is a French sporting goods retailer. They are the largest sporting goods retailer in the world.",
-						website: "www.decathlon.ir" ,
+						website: "decathlon.ir" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: false, react: false, jquery: true }
 					},
@@ -108,7 +118,7 @@
 						titleBold: "Cocalo",
 						title: "Store",
 						description: "SakenCocalo is an online baby store.",
-						website: "www.cocalostore.ir" ,
+						website: "cocalostore.ir" ,
 						category: "front",
 						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -118,7 +128,7 @@
 						titleBold: "Tajhiz",
 						title: "Online",
 						description: "Tajhiz Online is a online market for buying building products.",
-						website: "www.tajhizonline.com" ,
+						website: "tajhizonline.com" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -128,7 +138,7 @@
 						titleBold: "Forifood",
 						title: "Service",
 						description: "Forifood is an online food ordering service.",
-						website: "www.forifood.com" ,
+						website: "forifood.com" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -148,7 +158,7 @@
 						titleBold: "The AOS",
 						title: "Group",
 						description: "'Agile Solutions Operations' IT office.",
-						website: "www.theaosgroup.com" ,
+						website: "theaosgroup.com" ,
 						category: "full",
 						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
 					},
@@ -158,7 +168,7 @@
 						titleBold: "Medlin",
 						title: "Group",
 						description: "Medlin Group is a distributer of Animal Health products, feed supplements and Feed additives with the main office in UAE since 2006.",
-						website: "www.medlin-ahn.com" ,
+						website: "medlin-ahn.com" ,
 						category: "front",
 						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -168,7 +178,7 @@
 						titleBold: "Sakenin",
 						title: "Real Estate",
 						description: "Sakenin is a Tehran based real estate website.",
-						website: "www.sakenin.com" ,
+						website: "sakenin.com" ,
 						category: "front",
 						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -178,7 +188,7 @@
 						titleBold: "MESH",
 						title: "architects",
 						description: "The TR+Partners is an architectural practice based in Tehran, Iran.",
-						website: "www.mesh-architects.com" ,
+						website: "mesh-architects.com" ,
 						category: "full",
 						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
 					},
@@ -188,7 +198,7 @@
 						titleBold: "Roozbeh",
 						title: "Eslami",
 						description: "My Personal Website.",
-						website: "www.roozbeheslami.com" ,
+						website: "roozbeheslami.com" ,
 						category: "full",
 						tools: { html: true, css: false, sass: true, bootstrap: true, js: false, vue: true, react: false, jquery: false }
 					},
@@ -198,7 +208,7 @@
 						titleBold: "Akbar",
 						title: "Mesripour",
 						description: "Akbar Mesripour is a painter who lives in Esfahan, Iran.",
-						website: "www.akbarmesripour.com" ,
+						website: "akbarmesripour.com" ,
 						category: "full",
 						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -208,7 +218,7 @@
 						titleBold: "Bitobin",
 						title: "Exchange",
 						description: "Bitobin is a online platform for buying or selling digital currency.",
-						website: "www.bitobin.com" ,
+						website: "bitobin.com" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -218,7 +228,7 @@
 						titleBold: "AP",
 						title: "Architects",
 						description: "Azhand Panam architecture group.",
-						website: "www.ap-architects.com" ,
+						website: "ap-architects.com" ,
 						category: "full",
 						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
 					},
@@ -228,7 +238,7 @@
 						titleBold: "Reza",
 						title: "Eslami",
 						description: "Reza Eslami is an Architect.",
-						website: "www.reza-eslami.com" ,
+						website: "reza-eslami.com" ,
 						category: "full",
 						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
 					},
@@ -238,7 +248,7 @@
 					// 	titleBold: "Bazar",
 					// 	title: "Tahrir",
 					// 	description: "Bazar Tahrir is an online stationery shop for unique stationery lovers.",
-					// 	website: "www.bazartahrir.ir" ,
+					// 	website: "bazartahrir.ir" ,
 					// 	category: "front",
 					// 	tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					// },
@@ -248,7 +258,7 @@
 						titleBold: "Yadaki",
 						title: "Pars",
 						description: "An online shop for high quality and discount auto parts.",
-						website: "www.yadaki.parts" ,
+						website: "yadaki.parts" ,
 						category: "front",
 						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					},
@@ -258,7 +268,7 @@
 						titleBold: "Vadoo",
 						title: "Service",
 						description: "Vadoo is a professional website for searching cars or estates to buy.",
-						website: "www.vadoo.ir" ,
+						website: "vadoo.ir" ,
 						category: "front",
 						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
 					}
