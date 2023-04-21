@@ -11,7 +11,7 @@
 					</div>
 					<div class="col-lg-12 text">
 						<p>
-							The websites I design and develop are fully responsive, and they use HTML5, CSS3 <span>(SASS)</span>, JavaScript <span>(ECMAScript 6+)</span>, JS Frameworks (such as <span>VueJS/NuxtJS</span> and <span>ReactJS/NextJS</span>) and other modern programming languages and frameworks. Additionally, I have experience using Node package manager, <span>Webpack</span> module bundler and control version systems like <span>Git</span>. I have worked effectively with designers and back-end developers, as a front-end developer in agile teams.
+							I am skilled in designing and developing fully responsive websites using modern programming languages and frameworks, including HTML5, CSS3 <span>(SASS)</span>, JavaScript <span>(ECMAScript 6+)</span>, JS Frameworks (such as <span>VueJS/NuxtJS</span> and <span>ReactJS/NextJS</span>) and other modern programming languages and frameworks. Additionally, I have experienced in using Node package manager, <span>Webpack</span> module bundler and control version systems like <span>Git</span>. I have worked collaboratively with designers and back-end developers as part of agile teams.
 						</p>
 					</div>
 					<div class="col-lg-12 part">

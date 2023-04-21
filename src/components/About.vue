@@ -14,13 +14,11 @@
 					<div class="col-md-12 col-md-offset-0 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2 body">
 						<img class="image" src="../assets/img/avatar1.jpg" :alt="fullName">
 						<p>
-							Hello, I'm {{ fullName }}, a web designer and front-end engineer born in 1988, based in Tehran, Iran.
+							Hello, I am Roozbeh Eslami, a web designer and front-end engineer from Tehran, Iran, who was born in 1988. 
 							<br>
-							I began programming in Highschool and worked as a freelance web designer during my studies at university. I have more than 10 years of experience working in web development therefore I could understand the importance of a well-designed and functional website.
+							I started programming in high school and worked as a freelance web designer during my studies at university. I hold a master's degree in computer software engineering from Islamic Azad University and currently I work as a full-time front-end engineer at Asa Co.
 							<br>
-							My master's degree is in computer software engineering from Islamic Azad University and currently I work as a full-time front-end engineer at Asa Co.
-							<br>
-							Nowadays, I'm mostly focusing on front-end development and web3, but from time to time I like to design my own projects and explore new design trends.
+							While my primary focus is on front-end development, I am also interested in exploring new design trends, as well as emerging technologies such as web3 and blockchain. This suggests that I have a strong desire to stay up-to-date with the latest developments in my field and I am committed to continuous learning and professional growth.
 						</p>
 						<div class="touch">
 							<p>Have a project you'd like to discuss? Let's work together!</p>
