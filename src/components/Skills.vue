@@ -18,15 +18,17 @@
 						<h6>Here are a few tools and technologies I've been working with recently</h6>
 						<i class="fab fa-js-square" v-tooltip.bottom="'Javascript (ES6+)'"></i>
 						<i class="fab fa-vuejs" v-tooltip.bottom="'Vue.js'"></i>
-						<i class="fab fa-react" v-tooltip.bottom="'React.js'"></i>
-						<img src="../assets/img/skills/jquery.png" v-tooltip.bottom="'jQuery'" alt="jQuery">
+						<img src="../assets/img/skills/nuxt.png" v-tooltip.bottom="'Nuxt.js'" alt="Nuxt.js">
+						<i class="fab fa-react" v-tooltip.bottom="'React'"></i>
+						<img src="../assets/img/skills/next.png" v-tooltip.bottom="'Next.js'" alt="Next.js">
 						<i class="fab fa-html5" v-tooltip.bottom="'HTML5'"></i>
 						<i class="fab fa-css3" v-tooltip.bottom="'CSS 3'"></i>
 						<i class="fab fa-sass" v-tooltip.bottom="'SASS / SCSS'"></i>
-						<i class="fab fa-bootstrap" v-tooltip.bottom="'Bootstrap'"></i>
+						<img src="../assets/img/skills/tailwind.png" v-tooltip.bottom="'Tailwind'" alt="Tailwind">
 						<i class="fab fa-git-alt" v-tooltip.bottom="'Git'"></i>
-						<i class="fab fa-npm" v-tooltip.bottom="'NPM'"></i>
+						<!-- <i class="fab fa-npm" v-tooltip.bottom="'NPM'"></i> -->
 						<img src="../assets/img/skills/webpack.png" v-tooltip.bottom="'Webpack'" alt="Webpack">
+						<img src="../assets/img/skills/docker.png" v-tooltip.bottom="'Docker'" alt="Docker">
 					</div>
 					<!-- <div class="order-md-4 order-lg-4 col-lg-12 title-in">
 						<div class="inner">
