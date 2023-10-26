@@ -31,11 +31,11 @@
 												<i v-if="work.tools.bootstrap" class="fab fa-bootstrap"></i>
 												<i v-if="work.tools.js" class="fab fa-js-square"></i>
 												<i v-if="work.tools.vue" class="fab fa-vuejs"></i>
+												<img v-if="work.tools.nuxt" src="../assets/img/skills/nuxt.png" alt="Nuxt">
 												<i v-if="work.tools.react" class="fab fa-react"></i>
 												<img v-if="work.tools.jquery" src="../assets/img/skills/jquery.png" alt="jQuery">
 											</p>
-											<p v-if="key == 11"><a>{{ work.website }}</a></p>
-											<p v-else><a :href="'http://' + work.website" target="_blank">{{ work.website }}</a></p>
+											<p><a :href="'http://' + work.website" target="_blank">{{ work.website }}</a></p>
 										</div>
 									</figcaption>			
 								</figure>
@@ -73,6 +73,26 @@
 				},
 				works: [
 					{
+						image: require('../assets/img/works/avanod.png'),
+						titleSort: true,
+						titleBold: "Avanod",
+						title: "",
+						description: "Avanod is the first provider to able you proof your experiences through Soulbound Tokens and NFTs!",
+						website: "avanod.com" ,
+						category: "front",
+						tools: { html: true, sass: true, nuxt: true }
+					},
+					{
+						image: require('../assets/img/works/ava.png'),
+						titleSort: true,
+						titleBold: "Ava",
+						title: "Agah",
+						description: "Ava-Agah seeks to provide investment advisory services accessible to everyone across the country.",
+						website: "ava.agah.com" ,
+						category: "front",
+						tools: { html: true, sass: true, nuxt: true, js: true}
+					},
+					{
 						image: require('../assets/img/works/mobexi.jpg'),
 						titleSort: true,
 						titleBold: "Mobexi",
@@ -80,7 +100,7 @@
 						description: "Mobexi is a financial online platform for cryptocurrency exchange.",
 						website: "mobexi.ir" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: false, vue: true, react: false, jquery: false }
+						tools: { html: true, sass: true, nuxt: true }
 					},
 					{
 						image: require('../assets/img/works/ghoghnos.jpg'),
@@ -90,17 +110,17 @@
 						description: "Ghoghnos Travel Company is active in the field of tourism since 1979.",
 						website: "ghoghnos.ir" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: true, react: false, jquery: true }
+						tools: { html: true, sass: true, js: true, vue: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/arzjoo.jpg'),
 						titleSort: true,
-						titleBold: "Arzjoo",
+						titleBold: "Sarmayex",
 						title: "Exchange",
-						description: "Arzjoo (Sarmayex) is a online platform for buying or selling digital currency.",
-						website: "arzjoo.com" ,
+						description: "Sarmayex (Sarmayex) is a online platform for buying or selling digital currency.",
+						website: "sarmayex.com" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: true, react: false, jquery: true }
+						tools: { html: true, sass: true, js: true, nuxt: true }
 					},
 					{
 						image: require('../assets/img/works/decathlon.jpg'),
@@ -110,7 +130,7 @@
 						description: "Decathlon S.A. is a French sporting goods retailer. They are the largest sporting goods retailer in the world.",
 						website: "decathlon.ir" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, sass: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/cocalo.jpg'),
@@ -120,7 +140,7 @@
 						description: "SakenCocalo is an online baby store.",
 						website: "cocalostore.ir" ,
 						category: "front",
-						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: true, bootstrap: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/tajhiz.jpg'),
@@ -130,7 +150,7 @@
 						description: "Tajhiz Online is a online market for buying building products.",
 						website: "tajhizonline.com" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, sass: true, bootstrap: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/forifood.jpg'),
@@ -140,18 +160,18 @@
 						description: "Forifood is an online food ordering service.",
 						website: "forifood.com" ,
 						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, sass: true, bootstrap: true, js: true, jquery: true }
 					},
-					{
-						image: require('../assets/img/works/mahim.jpg'),
-						titleSort: true,
-						titleBold: "Mahim",
-						title: "Shop",
-						description: "Mahim Online Market",
-						website: "" ,
-						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: false, js: true, vue: false, react: false, jquery: true }
-					},
+					// {
+					// 	image: require('../assets/img/works/mahim.jpg'),
+					// 	titleSort: true,
+					// 	titleBold: "Mahim",
+					// 	title: "Shop",
+					// 	description: "Mahim Online Market",
+					// 	website: "" ,
+					// 	category: "front",
+					// 	tools: { html: true, sass: true, js: true, jquery: true }
+					// },
 					{
 						image: require('../assets/img/works/aos.jpg'),
 						titleSort: true,
@@ -160,7 +180,7 @@
 						description: "'Agile Solutions Operations' IT office.",
 						website: "theaosgroup.com" ,
 						category: "full",
-						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/medlin.jpg'),
@@ -170,7 +190,17 @@
 						description: "Medlin Group is a distributer of Animal Health products, feed supplements and Feed additives with the main office in UAE since 2006.",
 						website: "medlin-ahn.com" ,
 						category: "front",
-						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: true, bootstrap: true, js: true, jquery: true }
+					},
+					{
+						image: require('../assets/img/works/aparch.jpg'),
+						titleSort: true,
+						titleBold: "AP",
+						title: "Architects",
+						description: "Ajand Panam Engineers Company, active in the field of construction industry.",
+						website: "ajandpanam.com" ,
+						category: "full",
+						tools: { html: true, css: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/sakenin.jpg'),
@@ -180,7 +210,7 @@
 						description: "Sakenin is a Tehran based real estate website.",
 						website: "sakenin.com" ,
 						category: "front",
-						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: true, bootstrap: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/mesh.jpg'),
@@ -190,7 +220,7 @@
 						description: "The TR+Partners is an architectural practice based in Tehran, Iran.",
 						website: "mesh-architects.com" ,
 						category: "full",
-						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
+						tools: { html: true, css: true, js: true, jquery: true }
 					},
 					{
 						image: require('../assets/img/works/roozbeheslami.jpg'),
@@ -200,48 +230,38 @@
 						description: "My Personal Website.",
 						website: "roozbeheslami.com" ,
 						category: "full",
-						tools: { html: true, css: false, sass: true, bootstrap: true, js: false, vue: true, react: false, jquery: false }
+						tools: { html: true, sass: true, bootstrap: true, vue: true }
 					},
-					{
-						image: require('../assets/img/works/akbarmesripour.jpg'),
-						titleSort: false,
-						titleBold: "Akbar",
-						title: "Mesripour",
-						description: "Akbar Mesripour is a painter who lives in Esfahan, Iran.",
-						website: "akbarmesripour.com" ,
-						category: "full",
-						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
-					},
-					{
-						image: require('../assets/img/works/bitobin.jpg'),
-						titleSort: true,
-						titleBold: "Bitobin",
-						title: "Exchange",
-						description: "Bitobin is a online platform for buying or selling digital currency.",
-						website: "bitobin.com" ,
-						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
-					},
-					{
-						image: require('../assets/img/works/aparch.jpg'),
-						titleSort: true,
-						titleBold: "AP",
-						title: "Architects",
-						description: "Azhand Panam architecture group.",
-						website: "ap-architects.com" ,
-						category: "full",
-						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
-					},
-					{
-						image: require('../assets/img/works/rezaeslami.jpg'),
-						titleSort: false,
-						titleBold: "Reza",
-						title: "Eslami",
-						description: "Reza Eslami is an Architect.",
-						website: "reza-eslami.com" ,
-						category: "full",
-						tools: { html: true, css: true, sass: false, bootstrap: false, js: true, vue: false, react: false, jquery: true }
-					},
+					// {
+					// 	image: require('../assets/img/works/akbarmesripour.jpg'),
+					// 	titleSort: false,
+					// 	titleBold: "Akbar",
+					// 	title: "Mesripour",
+					// 	description: "Akbar Mesripour is a painter who lives in Esfahan, Iran.",
+					// 	website: "akbarmesripour.com" ,
+					// 	category: "full",
+					// 	tools: { html: true, css: true, bootstrap: true, js: true, jquery: true }
+					// },
+					// {
+					// 	image: require('../assets/img/works/bitobin.jpg'),
+					// 	titleSort: true,
+					// 	titleBold: "Bitobin",
+					// 	title: "Exchange",
+					// 	description: "Bitobin is a online platform for buying or selling digital currency.",
+					// 	website: "bitobin.com" ,
+					// 	category: "front",
+					// 	tools: { html: true, sass: true, bootstrap: true, js: true, jquery: true }
+					// },
+					// {
+					// 	image: require('../assets/img/works/rezaeslami.jpg'),
+					// 	titleSort: false,
+					// 	titleBold: "Reza",
+					// 	title: "Eslami",
+					// 	description: "Reza Eslami is an Architect.",
+					// 	website: "reza-eslami.com" ,
+					// 	category: "full",
+					// 	tools: { html: true, css: true, js: true, jquery: true }
+					// },
 					// {
 					// 	image: require('../assets/img/works/bazartahrir.jpg'),
 					// 	titleSort: true,
@@ -250,28 +270,28 @@
 					// 	description: "Bazar Tahrir is an online stationery shop for unique stationery lovers.",
 					// 	website: "bazartahrir.ir" ,
 					// 	category: "front",
-					// 	tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
+					// 	tools: { html: true, sass: true, bootstrap: true, js: true, jquery: true }
 					// },
-					{
-						image: require('../assets/img/works/yadakiparts.jpg'),
-						titleSort: true,
-						titleBold: "Yadaki",
-						title: "Pars",
-						description: "An online shop for high quality and discount auto parts.",
-						website: "yadaki.parts" ,
-						category: "front",
-						tools: { html: true, css: true, sass: false, bootstrap: true, js: true, vue: false, react: false, jquery: true }
-					},
-					{
-						image: require('../assets/img/works/vadoo.jpg'),
-						titleSort: true,
-						titleBold: "Vadoo",
-						title: "Service",
-						description: "Vadoo is a professional website for searching cars or estates to buy.",
-						website: "vadoo.ir" ,
-						category: "front",
-						tools: { html: true, css: false, sass: true, bootstrap: true, js: true, vue: false, react: false, jquery: true }
-					}
+					// {
+					// 	image: require('../assets/img/works/yadakiparts.jpg'),
+					// 	titleSort: true,
+					// 	titleBold: "Yadaki",
+					// 	title: "Pars",
+					// 	description: "An online shop for high quality and discount auto parts.",
+					// 	website: "yadaki.parts" ,
+					// 	category: "front",
+					// 	tools: { html: true, css: true, bootstrap: true, js: true, jquery: true }
+					// },
+					// {
+					// 	image: require('../assets/img/works/vadoo.jpg'),
+					// 	titleSort: true,
+					// 	titleBold: "Vadoo",
+					// 	title: "Service",
+					// 	description: "Vadoo is a professional website for searching cars or estates to buy.",
+					// 	website: "vadoo.ir" ,
+					// 	category: "front",
+					// 	tools: { html: true, sass: true, bootstrap: true, js: true, jquery: true }
+					// }
 				],
 			}
 		},

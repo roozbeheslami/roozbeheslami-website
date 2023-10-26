@@ -303,7 +303,7 @@ $xl: 1199px;
     display: flex;
     align-items: center;
     font-size: 22px;
-    cursor: pointer;
+    cursor: pointer!important;
     transition: 0.5s;
 
     &:hover {
@@ -316,6 +316,7 @@ $xl: 1199px;
 
     i {
         margin: 0 auto;
+        cursor: pointer!important;
     }
 }
             
