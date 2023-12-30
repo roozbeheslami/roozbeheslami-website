@@ -861,7 +861,7 @@ $xl: 1199px;
     }
     // Open
     .open &__line--1 {
-        top: (20px - 3px) / 2;;
+        top: calc((20px - 3px) / 2);
         transform: rotate(135deg);
         transition: top .3s ease-in-out, 
         transform .3s linear .3s;
@@ -875,7 +875,7 @@ $xl: 1199px;
         transition: opacity .0s ease-in-out .3s;
     }
     .open &__line--3 {
-        bottom: (20px - 3px) / 2;;
+        bottom: calc((20px - 3px) / 2);
         opacity: 0;
         transition: bottom .3s ease-in-out, 
         opacity .0s ease-in-out .3s;
