@@ -681,15 +681,18 @@ $xl: 1199px;
 }
 
 .nav-fix {
-    width: 100%;
+    width: 1150px;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    top: 40px;
+    left: 50%;
     background: hsla(0,0%,100%,.9) !important;
     backdrop-filter: saturate(500%) blur(3px);
-    border-bottom: 1px solid #eee;
+    border: 1px solid #eee;
     font-family: $f-rw;
     font-weight: 500;
     position: fixed;
-    top: 0;
-    padding-top: 6.5px;
+    padding: 6.5px 4px 0 7px;
     z-index: 999;
     transition: 0.5s;
 
@@ -758,6 +761,17 @@ $xl: 1199px;
                 }
             }
         }
+    }
+
+    @include res(1200px) {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #eee;
+        padding: 6.5px 0 0 0;
     }
 
     @include res($md) {
