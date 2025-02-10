@@ -437,10 +437,10 @@ $xl: 1199px;
         box-sizing: content-box;
         bottom: 0;
         left: 0;
-        border-top: 37px solid #232011;
+        border-top: 37px solid #373737;
     
         @include res(sm) {
-            border-top: 30px solid #232011;
+            border-top: 30px solid #373737;
         }
     
         .avatar {
@@ -460,38 +460,38 @@ $xl: 1199px;
                 top: -177px;
             }
     
-            &:before,
-            &:after {
-                content: "";
-                position: absolute;
-                top: 177.5px;
-                width: 15px;
-                height: 37px;
-                background: #232011;
+            // &:before,
+            // &:after {
+            //     content: "";
+            //     position: absolute;
+            //     top: 177.5px;
+            //     width: 15px;
+            //     height: 37px;
+            //     background: #373737;
     
-                @include res(sm) {
-                    height: 30px;
-                    top: 147px;
-                }
-            }
+            //     @include res(sm) {
+            //         height: 30px;
+            //         top: 147px;
+            //     }
+            // }
 
-            &:before {
-                transform: skewX(15deg);
-                left: 6px;
+            // &:before {
+            //     transform: skewX(15deg);
+            //     left: 6px;
     
-                @include res(sm) {
-                    left: 3px;
-                }
-            }
+            //     @include res(sm) {
+            //         left: 3px;
+            //     }
+            // }
     
-            &:after {
-                transform: skewX(-15deg);
-                right: 6px;
+            // &:after {
+            //     transform: skewX(-15deg);
+            //     right: 6px;
     
-                @include res(sm) {
-                    right: 3px;
-                }
-            }
+            //     @include res(sm) {
+            //         right: 3px;
+            //     }
+            // }
         
             img {
                 border: 7px solid rgba(0, 0, 0, 0.05);
